@@ -1,11 +1,12 @@
 
-import './App.css';
-import WalletConnectButton from './WalletConnect'
+import SingleSwap from './Components/SingleSwap'
+import SignatureHandler from './Components/SignatureHandler';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <WalletConnectButton/>
+       <SingleSwap/>
+       <SignatureHandler/>
       </header>
     </div>
   );
